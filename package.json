@@ -1,0 +1,14 @@
+{
+  "name": "micro-test-framework",
+  "version": "1.0.0",
+  "description": "This is a micro node testing framework. Less than 100 lines of code to run asynchronous tests.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Mortenson",
+  "license": "MIT"
+}
