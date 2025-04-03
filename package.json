@@ -1,6 +1,6 @@
 {
   "name": "micro-test-framework",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "This is a micro node testing framework. Less than 100 lines of code to run asynchronous tests.",
   "main": "index.js",
   "directories": {
