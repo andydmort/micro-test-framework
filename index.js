@@ -8,6 +8,7 @@ const TESTS = [];
  * test. The function should return a boolean or a promise that resolves to a boolean. If the function
  * doesn't return anything then the test is considered to have passed. If the function throws an error
  * then the test is considered to have failed.
+ * @returns {promise<boolean>} Resolves true if the test was added successfully, false otherwise.
  */
 function addTest(name, fn) {
     let effectiveFn = fn;
@@ -56,6 +57,7 @@ async function runTests() {
     console.log(`Failed: ${failedTests.length}`);
     failedTests.forEach((test) => console.log(`❌ ${test.name}`));
     console.log(`----------`);
+    return failedTests.length === 0;
 };
 
 module.exports = { addTest, runTests };
