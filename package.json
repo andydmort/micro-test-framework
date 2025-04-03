@@ -6,9 +6,15 @@
   "directories": {
     "test": "test"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Andrew Mortenson",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andydmort/micro-test-framework.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "testing",
+    "framework",
+    "micro"
+  ]
 }
